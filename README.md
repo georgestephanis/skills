@@ -36,13 +36,10 @@ Optionally add a `references/` subdirectory for deeper docs and a `scripts/` sub
 
 ## Skills
 
-_None yet. Add a row here when you author a skill._
-
-<!--
-| Skill | Description |
-| ----- | ----------- |
-| [skill-name](skills/skill-name/SKILL.md) | One-line summary. |
--->
+| Skill                                                                      | Description                                                                                                                                                                                        |
+| -------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [mushclient-plugin-structure](skills/mushclient-plugin-structure/SKILL.md) | Author the XML file for a MUSHclient plugin — the `<muclient>`/`<plugin>` wrapper, triggers/aliases/timers/variables blocks, `<script>` CDATA, send_to codes, and `OnPlugin*` lifecycle callbacks. |
+| [mushclient-lua-scripting](skills/mushclient-lua-scripting/SKILL.md)       | Write Lua inside MUSHclient — the ~420 world functions, trigger/alias/timer handlers and wildcards, state persistence, and the bundled Lua modules and utils.                                      |
 
 ## Authoring a new skill
 
