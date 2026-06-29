@@ -1,0 +1,10 @@
+node_modules/
+.serena/
+.claude/
+package-lock.json
+**/*.js
+**/*.mjs
+**/*.cjs
+**/*.jsx
+**/*.ts
+**/*.tsx
