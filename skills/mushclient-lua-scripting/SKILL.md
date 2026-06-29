@@ -26,7 +26,7 @@ MUSHclient embeds **Lua 5.1** and exposes ~420 built-in "world functions" direct
 ## Key facts about MUSHclient's Lua
 
 - **No COM.** Unlike VBscript/JScript, Lua is compiled into MUSHclient. Call functions **directly**: `Note("hi")`, not `world.Note("hi")`. A `world` table alias also exists (`world.Note("hi")` works) but is unnecessary in Lua and mostly seen in ported examples.
-- **It's Lua 5.1** — not 5.2+. No goto, no integer subtype, `unpack` (not `table.unpack`), `string.gmatch` exists but `%g` etc. follow 5.1 rules.
+- **It's Lua 5.1** — not 5.2+. No goto, no integer subtype, `unpack` (not `table.unpack`), `string.gmatch` exists but `%g` etc. follow 5.1 rules. For language/stdlib details and 5.1-vs-5.2+ gotchas, see the `lua-5.1-reference` skill.
 - **Variables are strings.** `GetVariable`/`SetVariable` store text only. Numbers come back as strings (`tonumber(GetVariable("hp"))`); tables must be serialized.
 - **One Lua state per plugin.** Each plugin has its own globals; they don't leak between plugins. Share data via `BroadcastPlugin`/`CallPlugin` or saved variables.
 - **Errors are reported, not fatal to the client.** A runtime error in a handler prints a traceback to the output window and aborts that call only.

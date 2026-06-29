@@ -40,6 +40,7 @@ Optionally add a `references/` subdirectory for deeper docs and a `scripts/` sub
 | -------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [mushclient-plugin-structure](skills/mushclient-plugin-structure/SKILL.md) | Author the XML file for a MUSHclient plugin — the `<muclient>`/`<plugin>` wrapper, triggers/aliases/timers/variables blocks, `<script>` CDATA, send_to codes, and `OnPlugin*` lifecycle callbacks. |
 | [mushclient-lua-scripting](skills/mushclient-lua-scripting/SKILL.md)       | Write Lua inside MUSHclient — the ~420 world functions, trigger/alias/timer handlers and wildcards, state persistence, and the bundled Lua modules and utils.                                      |
+| [lua-5.1-reference](skills/lua-5.1-reference/SKILL.md)                     | Reference for the Lua 5.1 language and standard library — types, operators, metatables/metamethods, closures, coroutines, string patterns, and the basic/string/table/math/io/os/debug libraries.  |
 
 ## Authoring a new skill
 
